@@ -1,14 +1,6 @@
 import numpy as np
 from scipy.integrate import quad, dblquad,tplquad
 
-
-class molecules():
-    def __init__(self,pos,qs,alphas):
-        self.positions = pos
-        self.qs = qs
-        self.alphas = alphas
-        
-
 def get_phi(alpha):
     return 1/(np.sqrt(2)*alpha)
 
